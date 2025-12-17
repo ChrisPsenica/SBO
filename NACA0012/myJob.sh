@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --time=05:00:00	     	            # walltime limit (HH:MM:SS)
+#SBATCH --time=00:20:00	     	            # walltime limit (HH:MM:SS)
 #SBATCH --nodes=1		                    # number of nodes
 #SBATCH --ntasks-per-node=16 	            # 32 processor core(s) per node 
 #SBATCH --job-name="EGO"                    # job name
