@@ -6,6 +6,6 @@
 cp -r 0.orig 0
 
 # run simulation
-mpirun -np 16 python runScript.py
+mpirun -np 16 python runScript_SBO.py
 
 #------------------------------------------------------------------------------

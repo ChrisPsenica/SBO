@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --time=00:20:00	     	            # walltime limit (HH:MM:SS)
+#SBATCH --time=05:00:00	     	            # walltime limit (HH:MM:SS)
 #SBATCH --nodes=1		                    # number of nodes
 #SBATCH --ntasks-per-node=16 	            # 32 processor core(s) per node 
 #SBATCH --job-name="EGO"                    # job name
@@ -13,9 +13,9 @@
 #------------------------------------------------------------------------------
 
 # load framework
-. /work/phe/DAFoam_Nova_Gcc/latest/loadDAFoam.sh
+. /work/phe/ChrisPsenica/DAFoam/cpsenica/loadDAFoam.sh
 
 # run simulation
-python EGO.py
+python test.py
 
 #------------------------------------------------------------------------------
